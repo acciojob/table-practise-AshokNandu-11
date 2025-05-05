@@ -1,1 +1,11 @@
 /*  your css code here. If applicable */
+table {
+    border: 1px solid black; /* Explicitly set the border style */
+    border-collapse: collapse; /* Ensures borders are collapsed into a single border */
+    background-color: yellow; /* Keep the background color */
+}
+
+th, td {
+    border: 1px solid black; /* Ensure table headers and cells also have a solid border */
+    padding: 10px; /* Optional: Add some padding for better spacing */
+}
